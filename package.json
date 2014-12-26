@@ -2,7 +2,10 @@
     "name": "y-find",
     "version": "0.0.1",
     "description": "A command line utility to search for files.",
-    "main": "index.js",
+    "main": "./index.js",
+    "bin": {
+        "find": "./index.js"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
