@@ -15,7 +15,7 @@
     "line"
   ],
     "dependencies": {
-        "y-log": "0.0.1"
+        "y-log": "0.0.3"
     },
     "author": "Alex Yursha",
     "license": "ISC"
