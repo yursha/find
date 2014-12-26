@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  * Searches a file in a directory (recursively)
  */
@@ -16,6 +18,7 @@ fs.stat(where, function (err, stats) {
 		if (!stats.isDirectory()) {
 			log.error(dir + ' is not a directory');
 		} else {
+            log.info('Searching in ' + where);
 			traverseDirectory(where);
 		}
 	}
