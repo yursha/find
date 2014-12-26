@@ -1,0 +1,20 @@
+{
+    "name": "y-find",
+    "version": "0.0.1",
+    "description": "A command line utility to search for files.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+    "find",
+    "search",
+    "command",
+    "line"
+  ],
+    "dependencies": {
+        "y-log": "0.0.1"
+    },
+    "author": "Alex Yursha",
+    "license": "ISC"
+}
