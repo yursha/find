@@ -1,6 +1,6 @@
 {
     "name": "y-find",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A command line utility to search for files.",
     "bin": {
         "find": "./find.js"
