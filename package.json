@@ -1,9 +1,9 @@
 {
     "name": "y-find",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "description": "A command line utility to search for files.",
     "bin": {
-        "find": "./find.js"
+        "y-find": "./y-find.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
